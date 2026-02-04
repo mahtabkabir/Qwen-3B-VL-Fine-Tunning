@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['wall']
+
+roboflow:
+  workspace: testing-daidy
+  project: floor-plan-walls
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/testing-daidy/floor-plan-walls/dataset/5
